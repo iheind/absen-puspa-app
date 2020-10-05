@@ -1,11 +1,3 @@
-<p align="center">
-  <img src="http://www.zimprov.id/absensi_online/readme/absensi_online/banner_github.png"  height="300" width="600" style="">
-</p>
-
-# Attendance Application [Google Maps Version]
-
-Attendance Tracking Application , implementation using Flutter Google Map and Geolocator packages for tracking user location. Backend used is Codeigniter 3.
-
 ## Configuration Project 
 
 ### Android 
@@ -56,11 +48,6 @@ import GoogleMaps
 }
 ```
 
-## Installing
-
-1. Git clone **https://github.com/zgramming/Attendance-Application-Google-Map**
-2. cd `Attendance-Application-Google-Map`
-3. in terminal `flutter packages get`. After that `flutter run`
 
 ## Overview
 
@@ -86,22 +73,3 @@ import GoogleMaps
 - [x] User Profil
 - [x] Drawer Menu
 - [ ] Unimaginable Improvements 
-
-## Download
-
-|app-arm64-v8a|app-armeabi-v7a|app-x86_64|
-|:-----------:|:-------------:|:--------:|
-|[<img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/APK_format_icon.png" width="50px">](http://www.zimprov.id/absensi_online/apk/absensi_online/app-arm64-v8a-release.apk)|[<img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/APK_format_icon.png" width="50px">](http://www.zimprov.id/absensi_online/apk/absensi_online/app-armeabi-v7a-release.apk)|[<img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/APK_format_icon.png" width="50px">](http://www.zimprov.id/absensi_online/apk/absensi_online/app-x86_64-release.apk)|
-|7,8 MB|7,4 MB|8 MB|
-
-## API
-
-If you interested with the API in this application and want custom the API with yours , you can follow this <a href="https://github.com/zgramming/API.Absensi-Online"><b>Link<b/></a>
-
-## Issues
-
-Please file any issues, bugs or feature request as an issue on <a href="https://github.com/zgramming/Attendance-Application-Google-Map/issues"><b> Github </b></a>
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
