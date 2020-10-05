@@ -1,53 +1,6 @@
 ## Configuration Project 
 
-### Android 
-Open `Android/app/src/main/AndroidManifest.xml` and replace the API key with yours.
-
-```
-<manifest ...
-  <application ...
-    <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="YOUR KEY HERE"/>
-```
-### IOS
-
-Specify your API key in the application delegate `ios/Runner/AppDelegate.m`:
-
-```
-#include "AppDelegate.h"
-#include "GeneratedPluginRegistrant.h"
-#import "GoogleMaps/GoogleMaps.h"
-
-@implementation AppDelegate
-
-- (BOOL)application:(UIApplication *)application
-    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  [GMSServices provideAPIKey:@"YOUR KEY HERE"];
-  [GeneratedPluginRegistrant registerWithRegistry:self];
-  return [super application:application didFinishLaunchingWithOptions:launchOptions];
-}
-@end
-```
-Or in your swift code, specify your API key in the application delegate `ios/Runner/AppDelegate.swift`:
-
-```
-import UIKit
-import Flutter
-import GoogleMaps
-
-@UIApplicationMain
-@objc class AppDelegate: FlutterAppDelegate {
-  override func application(
-    _ application: UIApplication,
-    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
-  ) -> Bool {
-    GMSServices.provideAPIKey("YOUR KEY HERE")
-    GeneratedPluginRegistrant.register(with: self)
-    return super.application(application, didFinishLaunchingWithOptions: launchOptions)
-  }
-}
-```
-
+Change API KEY maps
 
 ## Overview
 
