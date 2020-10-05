@@ -1,6 +1,6 @@
 ## Configuration Project 
 
-Change API KEY maps
+Change API KEY maps. Database SQL Server 2012. PHP v5
 
 ## Overview
 
@@ -16,9 +16,7 @@ Change API KEY maps
 - [x] Absent only at certain radius [radius color will be green if user inside radius otherwise radius color will be purple]
 - [x] Detecting mockup location
 - [x] Add destination based on user choose in maps
-- [x] Pick Destination [this will be used as your absence location]
 - [x] Recap user absence monthly, has 2 view [Card & Table look]
 - [x] Recap user performance monthly
 - [x] User Profil
 - [x] Drawer Menu
-- [ ] Unimaginable Improvements 
